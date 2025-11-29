@@ -1,0 +1,824 @@
+Running Gradle task 'assembleRelease'...                        
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/superdeck.dart:3:1: Error: 'TableBorderUtility' is exported from both 'package:mix/src/attributes/scalars/scalar_util.dart' and 'package:superdeck/styles/style_util.dart'.
+export 'package:mix/mix.dart';
+^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:260:33: Error: Type 'StyleAttribute' not found.
+class MdTextStyleUtil<T extends StyleAttribute>
+                                ^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:296:31: Error: Type 'StyleAttribute' not found.
+class MdDividerUtil<T extends StyleAttribute>
+                              ^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:328:28: Error: Type 'StyleAttribute' not found.
+class MdListUtil<T extends StyleAttribute>
+                           ^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:372:36: Error: Type 'StyleAttribute' not found.
+class TableBorderUtility<T extends StyleAttribute>
+                                   ^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:436:44: Error: Type 'StyleAttribute' not found.
+class MarkdownAlternatingUtility<T extends StyleAttribute>
+                                           ^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:444:29: Error: Type 'StyleAttribute' not found.
+class MdTableUtil<T extends StyleAttribute>
+                            ^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:508:28: Error: Type 'StyleAttribute' not found.
+class MdCodeUtil<T extends StyleAttribute>
+                           ^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:553:34: Error: Type 'StyleAttribute' not found.
+class MdBlockQuoteUtil<T extends StyleAttribute>
+                                 ^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:264:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  SpacingUtility<T> get padding {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:268:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get textStyle {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:261:13: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'A' on 'DtoUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    extends DtoUtility<T, MdTextStyleDto, MdTextStyle> {
+            ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart:41:27: Context: This is the type variable whose bound isn't conformed to.
+abstract class DtoUtility<A extends StyleElement, D extends Mixable<Value>,
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:300:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'DoubleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  DoubleUtility<T> get height {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/utility.dart:44:27: Context: This is the type variable whose bound isn't conformed to.
+final class DoubleUtility<T extends StyleElement>
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:304:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'ColorUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  ColorUtility<T> get color {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/color/color_util.dart:49:26: Context: This is the type variable whose bound isn't conformed to.
+final class ColorUtility<T extends StyleElement> extends BaseColorUtility<T>
+                         ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:308:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'DoubleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  DoubleUtility<T> get thickness {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/utility.dart:44:27: Context: This is the type variable whose bound isn't conformed to.
+final class DoubleUtility<T extends StyleElement>
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:297:13: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'A' on 'DtoUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    extends DtoUtility<T, MdDividerDto, MdDivider> {
+            ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart:41:27: Context: This is the type variable whose bound isn't conformed to.
+abstract class DtoUtility<A extends StyleElement, D extends Mixable<Value>,
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:332:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get textStyle {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:336:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get item {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:340:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get itemMarker {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:344:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'DoubleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  DoubleUtility<T> get itemMarkerTrailingSpace {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/utility.dart:44:27: Context: This is the type variable whose bound isn't conformed to.
+final class DoubleUtility<T extends StyleElement>
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:348:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'DoubleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  DoubleUtility<T> get itemMinIndent {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/utility.dart:44:27: Context: This is the type variable whose bound isn't conformed to.
+final class DoubleUtility<T extends StyleElement>
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:329:13: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'A' on 'DtoUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    extends DtoUtility<T, MdListDto, MdList> {
+            ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart:41:27: Context: This is the type variable whose bound isn't conformed to.
+abstract class DtoUtility<A extends StyleElement, D extends Mixable<Value>,
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:377:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BorderSideUtility<T> get top {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:381:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BorderSideUtility<T> get right {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:385:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BorderSideUtility<T> get bottom {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:389:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BorderSideUtility<T> get left {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:393:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BorderSideUtility<T> get horizontalInside {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:397:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BorderSideUtility<T> get verticalInside {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:401:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BorderSideUtility<T> get all {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:373:13: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'A' on 'DtoUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    extends DtoUtility<T, TableBorderDto, TableBorder> {
+            ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart:41:27: Context: This is the type variable whose bound isn't conformed to.
+abstract class DtoUtility<A extends StyleElement, D extends Mixable<Value>,
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:437:13: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'Return' on 'ScalarUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    extends ScalarUtility<T, MarkdownAlternating> {
+            ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/utility.dart:21:30: Context: This is the type variable whose bound isn't conformed to.
+abstract class ScalarUtility<Return extends StyleElement, V>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:448:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get textStyle {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:452:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get head {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:456:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get body {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:464:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BoxDecorationUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BoxDecorationUtility<T> get rowDecoration {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/decoration/decoration_dto.g.dart:85:28: Context: This is the type variable whose bound isn't conformed to.
+class BoxDecorationUtility<T extends StyleElement>
+                           ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:474:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  SpacingUtility<T> get cellPadding {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:445:13: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'A' on 'DtoUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    extends DtoUtility<T, MdTableDto, MdTable> {
+            ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart:41:27: Context: This is the type variable whose bound isn't conformed to.
+abstract class DtoUtility<A extends StyleElement, D extends Mixable<Value>,
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:512:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get span {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:516:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get textStyle {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:520:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  SpacingUtility<T> get padding {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:524:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BoxDecorationUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BoxDecorationUtility<T> get decoration {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/decoration/decoration_dto.g.dart:85:28: Context: This is the type variable whose bound isn't conformed to.
+class BoxDecorationUtility<T extends StyleElement>
+                           ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:529:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'ColorUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  ColorUtility<T> get copyIconColor {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/color/color_util.dart:49:26: Context: This is the type variable whose bound isn't conformed to.
+final class ColorUtility<T extends StyleElement> extends BaseColorUtility<T>
+                         ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:509:13: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'A' on 'DtoUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    extends DtoUtility<T, MdCodeDto, MdCode> {
+            ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart:41:27: Context: This is the type variable whose bound isn't conformed to.
+abstract class DtoUtility<A extends StyleElement, D extends Mixable<Value>,
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:558:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  TextStyleUtility<T> get textStyle {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:562:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BoxDecorationUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  BoxDecorationUtility<T> get decoration {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/decoration/decoration_dto.g.dart:85:28: Context: This is the type variable whose bound isn't conformed to.
+class BoxDecorationUtility<T extends StyleElement>
+                           ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:566:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  SpacingUtility<T> get padding {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:570:3: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+  SpacingUtility<T> get contentPadding {
+  ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:554:13: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'A' on 'DtoUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    extends DtoUtility<T, MdBlockQuoteDto, MdBlockQuote> {
+            ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart:41:27: Context: This is the type variable whose bound isn't conformed to.
+abstract class DtoUtility<A extends StyleElement, D extends Mixable<Value>,
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/molecules/split_view.dart:10:3: Error: Undefined name 'box'.
+  box.color.grey.shade900(),
+  ^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/molecules/split_view.dart:11:3: Error: Undefined name 'box'.
+  box.margin.all(8),
+  ^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/molecules/split_view.dart:12:3: Error: Undefined name 'box'.
+  box.maxHeight(140),
+  ^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/molecules/split_view.dart:13:3: Error: Undefined name 'box'.
+  box.shadow(
+  ^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/slide_thumbnail.dart:16:5: Error: Undefined name 'box'.
+    box.color.grey.shade900(),
+    ^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/slide_thumbnail.dart:17:5: Error: Undefined name 'box'.
+    box.margin.all(8),
+    ^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/slide_thumbnail.dart:18:5: Error: Undefined name 'box'.
+    box.border.all.width(2),
+    ^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/slide_thumbnail.dart:19:5: Error: Undefined name 'box'.
+    box.shadow(
+    ^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:75:9: Error: A constant constructor can't call a non-constant super constructor.
+  const SlideStyleUtility(super.builder);
+        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/cache_image_widget.dart:24:33: Error: Couldn't find constructor 'ImageSpec.empty'.
+    this.spec = const ImageSpec.empty(),
+                                ^^^^^
+lib/screens/home_screen.dart:90:7: Error: Expected an identifier, but got 'else'.
+Try inserting an identifier before 'else'.
+    } else {
+      ^^^^
+lib/screens/home_screen.dart:90:5: Error: Expected ';' after this.
+    } else {
+    ^
+lib/screens/home_screen.dart:90:7: Error: Unexpected token ';'.
+    } else {
+      ^^^^
+lib/screens/slides_screen.dart:16:9: Error: No named parameter with the name 'content'.
+        content: markdownContent,
+        ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/superdeck_app.dart:21:9: Context: Found this candidate, but the arguments don't match.
+  const SuperDeckApp({
+        ^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:18:31: Error: Member not found: 'TextStyleDto.maybeAs'.
+      textStyle: TextStyleDto.maybeAs(style.textStyle),
+                              ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:19:27: Error: Member not found: 'EdgeInsetsGeometryDto.maybeFrom'.
+      padding: SpacingDto.maybeFrom(style.padding),
+                          ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:64:31: Error: Member not found: 'TextStyleDto.maybeAs'.
+      textStyle: TextStyleDto.maybeAs(style.list),
+                              ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:65:26: Error: Member not found: 'TextStyleDto.maybeAs'.
+      item: TextStyleDto.maybeAs(style.listItem),
+                         ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:67:32: Error: Member not found: 'TextStyleDto.maybeAs'.
+      itemMarker: TextStyleDto.maybeAs(style.listItemMarker),
+                               ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:118:23: Error: Member not found: 'ColorDto.maybeFrom'.
+      color: ColorDto.maybeFrom(style.dividerColor),
+                      ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:164:31: Error: Member not found: 'TextStyleDto.maybeAs'.
+      textStyle: TextStyleDto.maybeAs(style.blockquote),
+                              ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:165:36: Error: Member not found: 'BoxDecorationDto.maybeFrom'.
+      decoration: BoxDecorationDto.maybeFrom(style.blockquoteDecoration),
+                                   ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:166:27: Error: Member not found: 'EdgeInsetsGeometryDto.maybeFrom'.
+      padding: SpacingDto.maybeFrom(style.blockquotePadding),
+                          ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:167:34: Error: Member not found: 'EdgeInsetsGeometryDto.maybeFrom'.
+      contentPadding: SpacingDto.maybeFrom(style.blockquoteContentPadding),
+                                 ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:225:31: Error: Member not found: 'TextStyleDto.maybeAs'.
+      textStyle: TextStyleDto.maybeAs(style.table),
+                              ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:226:26: Error: Member not found: 'TextStyleDto.maybeAs'.
+      head: TextStyleDto.maybeAs(style.tableHead),
+                         ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:227:26: Error: Member not found: 'TextStyleDto.maybeAs'.
+      body: TextStyleDto.maybeAs(style.tableBody),
+                         ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:229:39: Error: Member not found: 'BoxDecorationDto.maybeFrom'.
+      rowDecoration: BoxDecorationDto.maybeFrom(style.tableRowDecoration),
+                                      ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:231:31: Error: Member not found: 'EdgeInsetsGeometryDto.maybeFrom'.
+      cellPadding: SpacingDto.maybeFrom(style.tableCellPadding),
+                              ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:302:26: Error: Member not found: 'TextStyleDto.maybeAs'.
+      span: TextStyleDto.maybeAs(style.codeSpan),
+                         ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:303:27: Error: Member not found: 'EdgeInsetsGeometryDto.maybeFrom'.
+      padding: SpacingDto.maybeFrom(style.codeblockPadding),
+                          ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:304:36: Error: Member not found: 'BoxDecorationDto.maybeFrom'.
+      decoration: BoxDecorationDto.maybeFrom(style.codeblockDecoration),
+                                   ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:305:31: Error: Member not found: 'ColorDto.maybeFrom'.
+      copyIconColor: ColorDto.maybeFrom(style.copyIconColor),
+                              ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:306:31: Error: Member not found: 'TextStyleDto.maybeAs'.
+      textStyle: TextStyleDto.maybeAs(style.codeBlock),
+                              ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:353:26: Error: Member not found: 'BorderSideDto.from'.
+      top: BorderSideDto.from(border.top),
+                         ^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:354:28: Error: Member not found: 'BorderSideDto.from'.
+      right: BorderSideDto.from(border.right),
+                           ^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:355:29: Error: Member not found: 'BorderSideDto.from'.
+      bottom: BorderSideDto.from(border.bottom),
+                            ^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:356:27: Error: Member not found: 'BorderSideDto.from'.
+      left: BorderSideDto.from(border.left),
+                          ^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:357:39: Error: Member not found: 'BorderSideDto.from'.
+      horizontalInside: BorderSideDto.from(border.horizontalInside),
+                                      ^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:358:37: Error: Member not found: 'BorderSideDto.from'.
+      verticalInside: BorderSideDto.from(border.verticalInside),
+                                    ^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:359:45: Error: Member not found: 'BorderRadiusGeometryDto.from'.
+      borderRadius: BorderRadiusGeometryDto.from(border.borderRadius),
+                                            ^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_dto.dart:381:45: Error: Member not found: 'BorderRadiusGeometryDto.from'.
+      borderRadius: BorderRadiusGeometryDto.from(borderRadius),
+                                            ^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_spec.dart:400:17: Error: Undefined name 'MixProvider'.
+    final mix = MixProvider.of(context);
+                ^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_spec.dart:408:66: Error: Couldn't find constructor 'BoxSpec.empty'.
+  BoxSpec get innerContainer => _innerContainer ?? const BoxSpec.empty();
+                                                                 ^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_spec.dart:410:66: Error: Couldn't find constructor 'BoxSpec.empty'.
+  BoxSpec get outerContainer => _outerContainer ?? const BoxSpec.empty();
+                                                                 ^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_spec.dart:412:70: Error: Couldn't find constructor 'BoxSpec.empty'.
+  BoxSpec get contentContainer => _contentContainer ?? const BoxSpec.empty();
+                                                                     ^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_spec.dart:414:52: Error: Couldn't find constructor 'ImageSpec.empty'.
+  ImageSpec get image => _image ?? const ImageSpec.empty();
+                                                   ^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:265:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(padding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:265:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'EdgeInsetsGeometryUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(padding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:12:39: Context: This is the type variable whose bound isn't conformed to.
+final class EdgeInsetsGeometryUtility<T extends StyleElement>
+                                      ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:269:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(textStyle: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:290:31: Error: Member not found: 'TextStyleDto.maybeAs'.
+      textStyle: TextStyleDto.maybeAs(textStyle),
+                              ^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:291:27: Error: Member not found: 'EdgeInsetsGeometryDto.maybeFrom'.
+      padding: SpacingDto.maybeFrom(padding),
+                          ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:301:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'DoubleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return DoubleUtility<T>((value) => only(dividerHeight: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/utility.dart:44:27: Context: This is the type variable whose bound isn't conformed to.
+final class DoubleUtility<T extends StyleElement>
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:305:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'ColorUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return ColorUtility<T>((value) => only(dividerColor: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/color/color_util.dart:49:26: Context: This is the type variable whose bound isn't conformed to.
+final class ColorUtility<T extends StyleElement> extends BaseColorUtility<T>
+                         ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:309:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'DoubleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return DoubleUtility<T>((value) => only(dividerThickness: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/utility.dart:44:27: Context: This is the type variable whose bound isn't conformed to.
+final class DoubleUtility<T extends StyleElement>
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:333:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(textStyle: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:337:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(item: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:341:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(itemMarker: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:345:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'DoubleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return DoubleUtility<T>((value) => only(itemMarkerTrailingSpace: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/utility.dart:44:27: Context: This is the type variable whose bound isn't conformed to.
+final class DoubleUtility<T extends StyleElement>
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:349:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'DoubleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return DoubleUtility<T>((value) => only(itemMinIndent: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/utility.dart:44:27: Context: This is the type variable whose bound isn't conformed to.
+final class DoubleUtility<T extends StyleElement>
+                          ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:378:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BorderSideUtility<T>((value) => only(top: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:382:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BorderSideUtility<T>((value) => only(right: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:386:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BorderSideUtility<T>((value) => only(bottom: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:390:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BorderSideUtility<T>((value) => only(left: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:394:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BorderSideUtility<T>((value) => only(horizontalInside: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:398:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BorderSideUtility<T>((value) => only(verticalInside: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:402:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BorderSideUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BorderSideUtility<T>((value) => only(
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/border/border_dto.g.dart:225:25: Context: This is the type variable whose bound isn't conformed to.
+class BorderSideUtility<T extends StyleElement>
+                        ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:449:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(textStyle: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:453:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(head: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:457:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(body: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:465:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BoxDecorationUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BoxDecorationUtility<T>((value) => only(rowDecoration: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/decoration/decoration_dto.g.dart:85:28: Context: This is the type variable whose bound isn't conformed to.
+class BoxDecorationUtility<T extends StyleElement>
+                           ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:475:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(cellPadding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:475:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'EdgeInsetsGeometryUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(cellPadding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:12:39: Context: This is the type variable whose bound isn't conformed to.
+final class EdgeInsetsGeometryUtility<T extends StyleElement>
+                                      ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:513:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(span: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:517:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(textStyle: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:521:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(padding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:521:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'EdgeInsetsGeometryUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(padding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:12:39: Context: This is the type variable whose bound isn't conformed to.
+final class EdgeInsetsGeometryUtility<T extends StyleElement>
+                                      ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:525:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BoxDecorationUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BoxDecorationUtility<T>((value) => only(decoration: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/decoration/decoration_dto.g.dart:85:28: Context: This is the type variable whose bound isn't conformed to.
+class BoxDecorationUtility<T extends StyleElement>
+                           ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:530:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'ColorUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return ColorUtility<T>((value) => only(copyIconColor: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/color/color_util.dart:49:26: Context: This is the type variable whose bound isn't conformed to.
+final class ColorUtility<T extends StyleElement> extends BaseColorUtility<T>
+                         ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:559:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'TextStyleUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return TextStyleUtility<T>((value) => only(textStyle: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/text_style/text_style_util.dart:12:30: Context: This is the type variable whose bound isn't conformed to.
+final class TextStyleUtility<T extends StyleElement>
+                             ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:563:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'BoxDecorationUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return BoxDecorationUtility<T>((value) => only(decoration: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/decoration/decoration_dto.g.dart:85:28: Context: This is the type variable whose bound isn't conformed to.
+class BoxDecorationUtility<T extends StyleElement>
+                           ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:567:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(padding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:567:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'EdgeInsetsGeometryUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(padding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:12:39: Context: This is the type variable whose bound isn't conformed to.
+final class EdgeInsetsGeometryUtility<T extends StyleElement>
+                                      ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:571:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'SpacingUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(contentPadding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:9:24: Context: This is the type variable whose bound isn't conformed to.
+typedef SpacingUtility<T extends StyleElement> = EdgeInsetsGeometryUtility<T>;
+                       ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/styles/style_util.dart:571:12: Error: Type argument 'T' doesn't conform to the bound 'StyleElement' of the type variable 'T' on 'EdgeInsetsGeometryUtility'.
+ - 'StyleElement' is from 'package:mix/src/core/element.dart' ('../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/core/element.dart').
+Try changing type arguments so that they conform to the bounds.
+    return SpacingUtility<T>((value) => only(contentPadding: value));
+           ^
+../../../../.pub-cache/hosted/pub.dev/mix-1.7.0/lib/src/attributes/spacing/spacing_util.dart:12:39: Context: This is the type variable whose bound isn't conformed to.
+final class EdgeInsetsGeometryUtility<T extends StyleElement>
+                                      ^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/services/snapshot_service.dart:118:11: Error: No named parameter with the name 'size'.
+          size: logicalSize,
+          ^^^^
+/opt/homebrew/share/flutter/packages/flutter/lib/src/rendering/view.dart:33:9: Context: Found this candidate, but the arguments don't match.
+  const ViewConfiguration({
+        ^^^^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/cache_image_widget.dart:82:56: Error: The getter 'firstWhereOrNull' isn't defined for the type 'List<SlideAsset>'.
+ - 'List' is from 'dart:core'.
+ - 'SlideAsset' is from 'package:superdeck/models/asset_model.dart' ('../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/models/asset_model.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'firstWhereOrNull'.
+  final firstOrNull = controller.assets.watch(context).firstWhereOrNull;
+                                                       ^^^^^^^^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/markdown_viewer-0.6.2/lib/src/renderer.dart:50:49: Error: The getter 'bodyText2' isn't defined for the type 'TextTheme'.
+ - 'TextTheme' is from 'package:flutter/src/material/text_theme.dart' ('/opt/homebrew/share/flutter/packages/flutter/lib/src/material/text_theme.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'bodyText2'.
+                  ? Theme.of(context).textTheme.bodyText2?.color
+                                                ^^^^^^^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/slide_thumbnail.dart:129:13: Error: The getter 'box' isn't defined for the type '_SlideThumbnailState'.
+ - '_SlideThumbnailState' is from 'package:superdeck/components/atoms/slide_thumbnail.dart' ('../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/slide_thumbnail.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'box'.
+            box.border.all.color(selectedColor),
+            ^^^
+../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/slide_thumbnail.dart:198:11: Error: The getter 'box' isn't defined for the type 'SlideThumbnailDynamic'.
+ - 'SlideThumbnailDynamic' is from 'package:superdeck/components/atoms/slide_thumbnail.dart' ('../../../../.pub-cache/hosted/pub.dev/superdeck-0.0.4/lib/components/atoms/slide_thumbnail.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'box'.
+          box.border.all.color(selectedColor),
+          ^^^
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildRelease'.
+> Process 'command '/opt/homebrew/share/flutter/bin/flutter'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 14s
+Running Gradle task 'assembleRelease'...                           15.0s
+Gradle task assembleRelease failed with exit code 1

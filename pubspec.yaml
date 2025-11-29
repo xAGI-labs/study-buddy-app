@@ -1,0 +1,51 @@
+name: localdost
+description: Studdy Buddy - Your offline AI study companion.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking & Parsing
+  http: ^1.2.0
+  html: ^0.15.4
+
+  # Intent Handling
+  receive_sharing_intent: ^1.8.0 
+
+  # UI & State
+  flutter_markdown: ^0.6.14
+  provider: ^6.1.1
+  
+  # Styling
+  google_fonts: ^6.1.0
+  shimmer: ^3.0.0
+  
+  # Features
+  flutter_tts: ^4.0.2
+  html2md: ^1.3.0
+  
+  # AI Engine (Cactus)
+  cactus:
+    git:
+      url: https://github.com/cactus-compute/cactus-flutter.git
+      ref: main
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  flutter_launcher_icons: ^0.13.1
+  
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.jpg"

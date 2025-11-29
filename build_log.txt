@@ -1,0 +1,784 @@
+[  +32 ms] executing: sysctl hw.optional.arm64
+[   +3 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[   +3 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] executing: [/opt/homebrew/share/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +15 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2025-11-20 17:53:13 -0500
+[  +13 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +22 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +36 ms] Skipping pub get: version match.
+[  +48 ms] Found plugin receive_sharing_intent at /Users/saurav/.pub-cache/hosted/pub.dev/receive_sharing_intent-1.8.1/
+[   +8 ms] Found plugin path_provider at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_windows at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +2 ms] Found plugin path_provider_linux at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[   +1 ms] Found plugin path_provider_foundation at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_foundation-2.5.0/
+[   +1 ms] Found plugin objective_c at /Users/saurav/.pub-cache/hosted/pub.dev/objective_c-9.1.0/
+[   +1 ms] Found plugin path_provider_android at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/
+[   +1 ms] Found plugin flutter_tts at /Users/saurav/.pub-cache/hosted/pub.dev/flutter_tts-4.2.3/
+[   +2 ms] Found plugin cactus at /Users/saurav/.pub-cache/git/cactus-flutter-1871c9e1708c2b904ab672792facf9101470141c/
+[   +1 ms] Found plugin shared_preferences at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences-2.5.3/
+[        ] Found plugin shared_preferences_windows at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.4.1/
+[   +2 ms] Found plugin shared_preferences_web at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_web-2.4.3/
+[        ] Found plugin shared_preferences_linux at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.4.1/
+[        ] Found plugin shared_preferences_foundation at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.6/
+[        ] Found plugin shared_preferences_android at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.17/
+[        ] Found plugin record at /Users/saurav/.pub-cache/hosted/pub.dev/record-6.1.2/
+[        ] Found plugin record_windows at /Users/saurav/.pub-cache/hosted/pub.dev/record_windows-1.0.7/
+[   +1 ms] Found plugin record_web at /Users/saurav/.pub-cache/hosted/pub.dev/record_web-1.2.2/
+[        ] Found plugin record_macos at /Users/saurav/.pub-cache/hosted/pub.dev/record_macos-1.1.2/
+[        ] Found plugin record_linux at /Users/saurav/.pub-cache/hosted/pub.dev/record_linux-1.2.1/
+[        ] Found plugin record_ios at /Users/saurav/.pub-cache/hosted/pub.dev/record_ios-1.1.5/
+[        ] Found plugin record_android at /Users/saurav/.pub-cache/hosted/pub.dev/record_android-1.4.5/
+[        ] Found plugin permission_handler at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler-12.0.1/
+[        ] Found plugin permission_handler_windows at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[        ] Found plugin permission_handler_html at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[   +1 ms] Found plugin permission_handler_apple at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[        ] Found plugin permission_handler_android at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/
+[        ] Found plugin package_info_plus at /Users/saurav/.pub-cache/hosted/pub.dev/package_info_plus-8.3.1/
+[   +3 ms] Found plugin objectbox_flutter_libs at /Users/saurav/.pub-cache/hosted/pub.dev/objectbox_flutter_libs-5.0.2/
+[   +3 ms] Found plugin device_info_plus at /Users/saurav/.pub-cache/hosted/pub.dev/device_info_plus-11.5.0/
+[   +1 ms] Found plugin android_id at /Users/saurav/.pub-cache/hosted/pub.dev/android_id-0.4.1/
+[  +24 ms] Found plugin receive_sharing_intent at /Users/saurav/.pub-cache/hosted/pub.dev/receive_sharing_intent-1.8.1/
+[   +3 ms] Found plugin path_provider at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_windows at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[   +1 ms] Found plugin path_provider_linux at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[        ] Found plugin path_provider_foundation at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_foundation-2.5.0/
+[        ] Found plugin objective_c at /Users/saurav/.pub-cache/hosted/pub.dev/objective_c-9.1.0/
+[        ] Found plugin path_provider_android at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/
+[        ] Found plugin flutter_tts at /Users/saurav/.pub-cache/hosted/pub.dev/flutter_tts-4.2.3/
+[   +1 ms] Found plugin cactus at /Users/saurav/.pub-cache/git/cactus-flutter-1871c9e1708c2b904ab672792facf9101470141c/
+[        ] Found plugin shared_preferences at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences-2.5.3/
+[        ] Found plugin shared_preferences_windows at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.4.1/
+[        ] Found plugin shared_preferences_web at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_web-2.4.3/
+[        ] Found plugin shared_preferences_linux at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.4.1/
+[        ] Found plugin shared_preferences_foundation at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.6/
+[        ] Found plugin shared_preferences_android at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.17/
+[        ] Found plugin record at /Users/saurav/.pub-cache/hosted/pub.dev/record-6.1.2/
+[        ] Found plugin record_windows at /Users/saurav/.pub-cache/hosted/pub.dev/record_windows-1.0.7/
+[        ] Found plugin record_web at /Users/saurav/.pub-cache/hosted/pub.dev/record_web-1.2.2/
+[        ] Found plugin record_macos at /Users/saurav/.pub-cache/hosted/pub.dev/record_macos-1.1.2/
+[        ] Found plugin record_linux at /Users/saurav/.pub-cache/hosted/pub.dev/record_linux-1.2.1/
+[        ] Found plugin record_ios at /Users/saurav/.pub-cache/hosted/pub.dev/record_ios-1.1.5/
+[        ] Found plugin record_android at /Users/saurav/.pub-cache/hosted/pub.dev/record_android-1.4.5/
+[        ] Found plugin permission_handler at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler-12.0.1/
+[        ] Found plugin permission_handler_windows at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[        ] Found plugin permission_handler_html at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[        ] Found plugin permission_handler_apple at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[        ] Found plugin permission_handler_android at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/
+[        ] Found plugin package_info_plus at /Users/saurav/.pub-cache/hosted/pub.dev/package_info_plus-8.3.1/
+[        ] Found plugin objectbox_flutter_libs at /Users/saurav/.pub-cache/hosted/pub.dev/objectbox_flutter_libs-5.0.2/
+[        ] Found plugin device_info_plus at /Users/saurav/.pub-cache/hosted/pub.dev/device_info_plus-11.5.0/
+[        ] Found plugin android_id at /Users/saurav/.pub-cache/hosted/pub.dev/android_id-0.4.1/
+[   +5 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[   +9 ms] Found plugin receive_sharing_intent at /Users/saurav/.pub-cache/hosted/pub.dev/receive_sharing_intent-1.8.1/
+[   +2 ms] Found plugin path_provider at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[        ] Found plugin path_provider_windows at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[        ] Found plugin path_provider_linux at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[        ] Found plugin path_provider_foundation at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_foundation-2.5.0/
+[        ] Found plugin objective_c at /Users/saurav/.pub-cache/hosted/pub.dev/objective_c-9.1.0/
+[        ] Found plugin path_provider_android at /Users/saurav/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/
+[        ] Found plugin flutter_tts at /Users/saurav/.pub-cache/hosted/pub.dev/flutter_tts-4.2.3/
+[        ] Found plugin cactus at /Users/saurav/.pub-cache/git/cactus-flutter-1871c9e1708c2b904ab672792facf9101470141c/
+[        ] Found plugin shared_preferences at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences-2.5.3/
+[        ] Found plugin shared_preferences_windows at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_windows-2.4.1/
+[        ] Found plugin shared_preferences_web at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_web-2.4.3/
+[        ] Found plugin shared_preferences_linux at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_linux-2.4.1/
+[        ] Found plugin shared_preferences_foundation at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.6/
+[        ] Found plugin shared_preferences_android at /Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.17/
+[        ] Found plugin record at /Users/saurav/.pub-cache/hosted/pub.dev/record-6.1.2/
+[        ] Found plugin record_windows at /Users/saurav/.pub-cache/hosted/pub.dev/record_windows-1.0.7/
+[        ] Found plugin record_web at /Users/saurav/.pub-cache/hosted/pub.dev/record_web-1.2.2/
+[        ] Found plugin record_macos at /Users/saurav/.pub-cache/hosted/pub.dev/record_macos-1.1.2/
+[        ] Found plugin record_linux at /Users/saurav/.pub-cache/hosted/pub.dev/record_linux-1.2.1/
+[        ] Found plugin record_ios at /Users/saurav/.pub-cache/hosted/pub.dev/record_ios-1.1.5/
+[        ] Found plugin record_android at /Users/saurav/.pub-cache/hosted/pub.dev/record_android-1.4.5/
+[        ] Found plugin permission_handler at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler-12.0.1/
+[        ] Found plugin permission_handler_windows at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_windows-0.2.1/
+[        ] Found plugin permission_handler_html at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_html-0.1.3+5/
+[        ] Found plugin permission_handler_apple at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_apple-9.4.7/
+[        ] Found plugin permission_handler_android at /Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/
+[        ] Found plugin package_info_plus at /Users/saurav/.pub-cache/hosted/pub.dev/package_info_plus-8.3.1/
+[        ] Found plugin objectbox_flutter_libs at /Users/saurav/.pub-cache/hosted/pub.dev/objectbox_flutter_libs-5.0.2/
+[        ] Found plugin device_info_plus at /Users/saurav/.pub-cache/hosted/pub.dev/device_info_plus-11.5.0/
+[        ] Found plugin android_id at /Users/saurav/.pub-cache/hosted/pub.dev/android_id-0.4.1/
+[   +4 ms] Generating /Users/saurav/Desktop/code/hackathon/briefly/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[        ] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[        ] Skipping generating generated_plugins.cmake because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[        ] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[        ] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[        ] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[   +5 ms] executing: sysctl hw.optional.arm64
+[   +2 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] hw.optional.arm64: 1
+[        ] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[   +8 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[   +9 ms] executing: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[   +7 ms] Exit code 72 from: /usr/bin/arch -arm64e xcrun xcodebuild -version
+[        ] xcrun: error: unable to find utility "xcodebuild", not a developer tool or in PATH
+[  +59 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[        ] Android Studio version could not be detected, skipping Gradle-Java version compatibility check.
+[   +1 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +1 ms] Using gradle from /Users/saurav/Desktop/code/hackathon/briefly/android/gradlew.
+[   +8 ms] LocalFile: '/Users/saurav/Desktop/code/hackathon/briefly/android/build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[        ] LocalFile: '/Users/saurav/Desktop/code/hackathon/briefly/android/settings.gradle.kts' provides AGP version: 8.11.1
+[   +2 ms] Running Gradle task 'assembleRelease'...
+[        ] executing: [/Users/saurav/Desktop/code/hackathon/briefly/android/] /Users/saurav/Desktop/code/hackathon/briefly/android/gradlew --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib/main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuMzguMw==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MTkwNzRkMTJmNw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTNlNjU4NzI1ZA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC4x -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+[ +287 ms] Initialized native services in: /Users/saurav/.gradle/native
+[        ] Initialized jansi services in: /Users/saurav/.gradle/native
+[ +212 ms] Found daemon DaemonInfo{pid=3014, address=[7004287d-d455-4a01-98c8-5dcdbc71ae18 port:50697, addresses:[/127.0.0.1]], state=Idle, lastBusy=1764419021082, context=DefaultDaemonContext[uid=ba77120f-24f4-41c1-961e-e78ead052706,javaHome=/opt/homebrew/Cellar/openjdk/25/libexec/openjdk.jdk/Contents/Home,javaVersion=25,javaVendor=Homebrew,daemonRegistryDir=/Users/saurav/.gradle/daemon,pid=3014,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+[        ] JVM is incompatible.
+[        ] Wanted: DaemonRequestContext{jvmCriteria=/opt/homebrew/Cellar/openjdk@17/17.0.17/libexec/openjdk.jdk/Contents/Home (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=4G, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -Xmx8G, -Dfile.encoding=UTF-8, -Duser.country=IN, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+[        ] Actual: DefaultDaemonContext[uid=ba77120f-24f4-41c1-961e-e78ead052706,javaHome=/opt/homebrew/Cellar/openjdk/25/libexec/openjdk.jdk/Contents/Home,javaVersion=25,javaVendor=Homebrew,daemonRegistryDir=/Users/saurav/.gradle/daemon,pid=3014,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+[   +1 ms]   Looking for a different daemon...
+[        ] The client will now receive all logging from the daemon (pid: 5886). The daemon log file: /Users/saurav/.gradle/daemon/8.14/daemon-5886.out.log
+[        ] Starting 3rd build in daemon [uptime: 50.141 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 3% of 4 GiB]
+[        ] Using 8 worker leases.
+[  +95 ms] Now considering [/Users/saurav/Desktop/code/hackathon/briefly/android, /opt/homebrew/share/flutter/packages/flutter_tools/gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[        ] Starting Build
+[        ] Now considering [/opt/homebrew/share/flutter/packages/flutter_tools/gradle, /Users/saurav/Desktop/code/hackathon/briefly/android] as hierarchies to watch
+[ +102 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file '/opt/homebrew/share/flutter/packages/flutter_tools/gradle/build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] file or directory '/opt/homebrew/share/flutter/packages/flutter_tools/gradle/src/main/java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[        ] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[Execution worker,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[Execution worker,5,main]) started.
+[        ] :gradle:compileJava (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[Execution worker,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[Execution worker,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[Execution worker,5,main]) started.
+[        ] :gradle:processResources (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[Execution worker,5,main]) started.
+[        ] :gradle:classes (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[Execution worker,5,main]) started.
+[        ] :gradle:jar (Thread[Execution worker,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[  +96 ms] Settings evaluated using settings file '/Users/saurav/Desktop/code/hackathon/briefly/android/settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file '/Users/saurav/Desktop/code/hackathon/briefly/android/build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':android_id', project ':app', project ':cactus', project ':device_info_plus', project ':flutter_tts', project ':objectbox_flutter_libs', project ':package_info_plus', project ':path_provider_android', project ':permission_handler_android', project ':receive_sharing_intent', project ':record_android', project ':shared_preferences_android']
+[  +99 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file '/Users/saurav/Desktop/code/hackathon/briefly/android/app/build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Using default execution profile
+[        ] Build f28376e5-a38e-4952-a71d-3026d80f17b8 is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /opt/homebrew/share/android-commandlinetools
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file '/Users/saurav/Desktop/code/hackathon/briefly/android/build.gradle.kts'.
+[        ] > Configure project :android_id
+[        ] Evaluating project ':android_id' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/android_id-0.4.1/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[  +95 ms] > Configure project :cactus
+[        ] Evaluating project ':cactus' using build file '/Users/saurav/.pub-cache/git/cactus-flutter-1871c9e1708c2b904ab672792facf9101470141c/android/build.gradle'.
+[        ] Using default execution profile
+[        ] > Configure project :device_info_plus
+[        ] Evaluating project ':device_info_plus' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/device_info_plus-11.5.0/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[  +94 ms] > Configure project :flutter_tts
+[        ] Evaluating project ':flutter_tts' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/flutter_tts-4.2.3/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[  +99 ms] > Configure project :objectbox_flutter_libs
+[        ] Evaluating project ':objectbox_flutter_libs' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/objectbox_flutter_libs-5.0.2/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] > Configure project :package_info_plus
+[        ] Evaluating project ':package_info_plus' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/package_info_plus-8.3.1/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] > Configure project :path_provider_android
+[        ] Evaluating project ':path_provider_android' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/android/build.gradle'.
+[        ] Using default execution profile
+[ +100 ms] > Configure project :permission_handler_android
+[        ] Evaluating project ':permission_handler_android' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/permission_handler_android-13.0.1/android/build.gradle'.
+[        ] Using default execution profile
+[        ] > Configure project :receive_sharing_intent
+[        ] Evaluating project ':receive_sharing_intent' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/receive_sharing_intent-1.8.1/android/build.gradle'.
+[        ] Resolved plugin [id: 'com.android.library']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[ +102 ms] > Configure project :record_android
+[        ] Evaluating project ':record_android' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/record_android-1.4.5/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] > Configure project :shared_preferences_android
+[        ] Evaluating project ':shared_preferences_android' using build file '/Users/saurav/.pub-cache/hosted/pub.dev/shared_preferences_android-2.4.17/android/build.gradle'.
+[        ] Using default execution profile
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] All projects evaluated.
+[        ] Task name matched 'assembleRelease'
+[        ] Selected primary task 'assembleRelease' from project :
+[ +196 ms] Tasks to be executed: [task ':android_id:preBuild', task ':android_id:preReleaseBuild', task ':android_id:mergeReleaseJniLibFolders', task ':android_id:mergeReleaseNativeLibs', task ':android_id:stripReleaseDebugSymbols', task ':android_id:copyReleaseJniLibsProjectAndLocalJars', task ':android_id:generateReleaseResValues', task ':android_id:extractDeepLinksForAarRelease', task ':android_id:checkKotlinGradlePluginConfigurationErrors', task ':android_id:generateReleaseResources', task ':android_id:packageReleaseResources', task ':android_id:parseReleaseLocalResources', task ':android_id:generateReleaseRFile', task ':android_id:compileReleaseKotlin', task ':android_id:extractReleaseAnnotations', task ':android_id:mergeReleaseShaders', task ':android_id:compileReleaseShaders', task ':android_id:generateReleaseAssets', task ':android_id:mergeReleaseAssets', task ':android_id:javaPreCompileRelease', task ':android_id:compileReleaseJavaWithJavac', task ':android_id:mergeReleaseGeneratedProguardFiles', task ':android_id:mergeReleaseConsumerProguardFiles', task ':android_id:prepareLintJarForPublish', task ':android_id:prepareReleaseArtProfile', task ':android_id:processReleaseManifest', task ':android_id:processReleaseJavaRes', task ':android_id:mergeReleaseJavaResource', task ':android_id:syncReleaseLibJars', task ':android_id:writeReleaseAarMetadata', task ':android_id:bundleReleaseAar', task ':android_id:mapReleaseSourceSetPaths', task ':android_id:mergeReleaseResources', task ':android_id:verifyReleaseResources', task ':android_id:assembleRelease', task ':app:ReleaseMinSdkCheck', task ':android_id:copyReleaseJniLibsProjectOnly', task ':app:compileFlutterBuildRelease', task ':app:packJniLibsflutterBuildRelease', task ':app:preBuild', task ':app:preReleaseBuild', task ':app:configureCMakeRelease[arm64-v8a]', task ':app:buildCMakeRelease[arm64-v8a]', task ':app:configureCMakeRelease[armeabi-v7a]', task ':app:buildCMakeRelease[armeabi-v7a]', task ':app:configureCMakeRelease[x86_64]', task ':app:buildCMakeRelease[x86_64]', task ':app:mergeReleaseJniLibFolders', task ':cactus:preBuild', task ':cactus:preReleaseBuild', task ':cactus:mergeReleaseJniLibFolders', task ':cactus:mergeReleaseNativeLibs', task ':cactus:copyReleaseJniLibsProjectOnly', task ':device_info_plus:preBuild', task ':device_info_plus:preReleaseBuild', task ':device_info_plus:mergeReleaseJniLibFolders', task ':device_info_plus:mergeReleaseNativeLibs', task ':device_info_plus:copyReleaseJniLibsProjectOnly', task ':flutter_tts:preBuild', task ':flutter_tts:preReleaseBuild', task ':flutter_tts:mergeReleaseJniLibFolders', task ':flutter_tts:mergeReleaseNativeLibs', task ':flutter_tts:copyReleaseJniLibsProjectOnly', task ':objectbox_flutter_libs:preBuild', task ':objectbox_flutter_libs:preReleaseBuild', task ':objectbox_flutter_libs:mergeReleaseJniLibFolders', task ':objectbox_flutter_libs:mergeReleaseNativeLibs', task ':objectbox_flutter_libs:copyReleaseJniLibsProjectOnly', task ':package_info_plus:preBuild', task ':package_info_plus:preReleaseBuild', task ':package_info_plus:mergeReleaseJniLibFolders', task ':package_info_plus:mergeReleaseNativeLibs', task ':package_info_plus:copyReleaseJniLibsProjectOnly', task ':path_provider_android:preBuild', task ':path_provider_android:preReleaseBuild', task ':path_provider_android:mergeReleaseJniLibFolders', task ':path_provider_android:mergeReleaseNativeLibs', task ':path_provider_android:copyReleaseJniLibsProjectOnly', task ':permission_handler_android:preBuild', task ':permission_handler_android:preReleaseBuild', task ':permission_handler_android:mergeReleaseJniLibFolders', task ':permission_handler_android:mergeReleaseNativeLibs', task ':permission_handler_android:copyReleaseJniLibsProjectOnly', task ':receive_sharing_intent:preBuild', task ':receive_sharing_intent:preReleaseBuild', task ':receive_sharing_intent:mergeReleaseJniLibFolders', task ':receive_sharing_intent:mergeReleaseNativeLibs', task ':receive_sharing_intent:copyReleaseJniLibsProjectOnly', task ':record_android:preBuild', task ':record_android:preReleaseBuild', task ':record_android:mergeReleaseJniLibFolders', task ':record_android:mergeReleaseNativeLibs', task ':record_android:copyReleaseJniLibsProjectOnly', task ':shared_preferences_android:preBuild', task ':shared_preferences_android:preReleaseBuild', task ':shared_preferences_android:mergeReleaseJniLibFolders', task ':shared_preferences_android:mergeReleaseNativeLibs', task ':shared_preferences_android:copyReleaseJniLibsProjectOnly', task ':app:mergeReleaseNativeLibs', task ':app:stripReleaseDebugSymbols', task ':app:extractReleaseNativeSymbolTables', task ':app:mergeReleaseNativeDebugMetadata', task ':android_id:bundleLibCompileToJarRelease', task ':cactus:generateReleaseResValues', task ':cactus:generateReleaseResources', task ':cactus:packageReleaseResources', task ':cactus:parseReleaseLocalResources', task ':cactus:generateReleaseRFile', task ':cactus:javaPreCompileRelease', task ':device_info_plus:checkKotlinGradlePluginConfigurationErrors', task ':device_info_plus:generateReleaseResValues', task ':device_info_plus:generateReleaseResources', task ':device_info_plus:packageReleaseResources', task ':device_info_plus:parseReleaseLocalResources', task ':device_info_plus:generateReleaseRFile', task ':device_info_plus:compileReleaseKotlin', task ':device_info_plus:javaPreCompileRelease', task ':device_info_plus:compileReleaseJavaWithJavac', task ':device_info_plus:bundleLibCompileToJarRelease', task ':objectbox_flutter_libs:checkKotlinGradlePluginConfigurationErrors', task ':objectbox_flutter_libs:generateReleaseResValues', task ':objectbox_flutter_libs:generateReleaseResources', task ':objectbox_flutter_libs:packageReleaseResources', task ':objectbox_flutter_libs:parseReleaseLocalResources', task ':objectbox_flutter_libs:generateReleaseRFile', task ':objectbox_flutter_libs:compileReleaseKotlin', task ':objectbox_flutter_libs:javaPreCompileRelease', task ':objectbox_flutter_libs:compileReleaseJavaWithJavac', task ':objectbox_flutter_libs:bundleLibCompileToJarRelease', task ':package_info_plus:checkKotlinGradlePluginConfigurationErrors', task ':package_info_plus:generateReleaseResValues', task ':package_info_plus:generateReleaseResources', task ':package_info_plus:packageReleaseResources', task ':package_info_plus:parseReleaseLocalResources', task ':package_info_plus:generateReleaseRFile', task ':package_info_plus:compileReleaseKotlin', task ':package_info_plus:javaPreCompileRelease', task ':package_info_plus:compileReleaseJavaWithJavac', task ':package_info_plus:bundleLibCompileToJarRelease', task ':cactus:compileReleaseJavaWithJavac', task ':cactus:mergeReleaseGeneratedProguardFiles', task ':cactus:exportReleaseConsumerProguardFiles', task ':android_id:exportReleaseConsumerProguardFiles', task ':device_info_plus:mergeReleaseGeneratedProguardFiles', task ':device_info_plus:exportReleaseConsumerProguardFiles', task ':flutter_tts:checkKotlinGradlePluginConfigurationErrors', task ':flutter_tts:generateReleaseResValues', task ':flutter_tts:generateReleaseResources', task ':flutter_tts:packageReleaseResources', task ':flutter_tts:parseReleaseLocalResources', task ':flutter_tts:generateReleaseRFile', task ':flutter_tts:compileReleaseKotlin', task ':flutter_tts:javaPreCompileRelease', task ':flutter_tts:compileReleaseJavaWithJavac', task ':flutter_tts:mergeReleaseGeneratedProguardFiles', task ':flutter_tts:exportReleaseConsumerProguardFiles', task ':objectbox_flutter_libs:mergeReleaseGeneratedProguardFiles', task ':objectbox_flutter_libs:exportReleaseConsumerProguardFiles', task ':package_info_plus:mergeReleaseGeneratedProguardFiles', task ':package_info_plus:exportReleaseConsumerProguardFiles', task ':path_provider_android:generateReleaseResValues', task ':path_provider_android:generateReleaseResources', task ':path_provider_android:packageReleaseResources', task ':path_provider_android:parseReleaseLocalResources', task ':path_provider_android:generateReleaseRFile', task ':path_provider_android:javaPreCompileRelease', task ':path_provider_android:compileReleaseJavaWithJavac', task ':path_provider_android:mergeReleaseGeneratedProguardFiles', task ':path_provider_android:exportReleaseConsumerProguardFiles', task ':permission_handler_android:generateReleaseResValues', task ':permission_handler_android:generateReleaseResources', task ':permission_handler_android:packageReleaseResources', task ':permission_handler_android:parseReleaseLocalResources', task ':permission_handler_android:generateReleaseRFile', task ':permission_handler_android:javaPreCompileRelease', task ':permission_handler_android:compileReleaseJavaWithJavac', task ':permission_handler_android:mergeReleaseGeneratedProguardFiles', task ':permission_handler_android:exportReleaseConsumerProguardFiles', task ':receive_sharing_intent:checkKotlinGradlePluginConfigurationErrors', task ':receive_sharing_intent:generateReleaseResValues', task ':receive_sharing_intent:generateReleaseResources', task ':receive_sharing_intent:packageReleaseResources', task ':receive_sharing_intent:parseReleaseLocalResources', task ':receive_sharing_intent:generateReleaseRFile', task ':receive_sharing_intent:compileReleaseKotlin', task ':receive_sharing_intent:javaPreCompileRelease', task ':receive_sharing_intent:compileReleaseJavaWithJavac', task ':receive_sharing_intent:mergeReleaseGeneratedProguardFiles', task ':receive_sharing_intent:exportReleaseConsumerProguardFiles', task ':record_android:checkKotlinGradlePluginConfigurationErrors', task ':record_android:generateReleaseResValues', task ':record_android:generateReleaseResources', task ':record_android:packageReleaseResources', task ':record_android:parseReleaseLocalResources', task ':record_android:generateReleaseRFile', task ':record_android:compileReleaseKotlin', task ':record_android:javaPreCompileRelease', task ':record_android:compileReleaseJavaWithJavac', task ':record_android:mergeReleaseGeneratedProguardFiles', task ':record_android:exportReleaseConsumerProguardFiles', task ':shared_preferences_android:checkKotlinGradlePluginConfigurationErrors', task ':shared_preferences_android:generateReleaseResValues', task ':shared_preferences_android:generateReleaseResources', task ':shared_preferences_android:packageReleaseResources', task ':shared_preferences_android:parseReleaseLocalResources', task ':shared_preferences_android:generateReleaseRFile', task ':shared_preferences_android:compileReleaseKotlin', task ':shared_preferences_android:javaPreCompileRelease', task ':shared_preferences_android:compileReleaseJavaWithJavac', task ':shared_preferences_android:mergeReleaseGeneratedProguardFiles', task ':shared_preferences_android:exportReleaseConsumerProguardFiles', task ':android_id:bundleLibRuntimeToJarRelease', task ':app:buildKotlinToolingMetadata', task ':app:checkReleaseDuplicateClasses', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':cactus:writeReleaseAarMetadata', task ':device_info_plus:writeReleaseAarMetadata', task ':flutter_tts:writeReleaseAarMetadata', task ':objectbox_flutter_libs:writeReleaseAarMetadata', task ':package_info_plus:writeReleaseAarMetadata', task ':path_provider_android:writeReleaseAarMetadata', task ':permission_handler_android:writeReleaseAarMetadata', task ':receive_sharing_intent:writeReleaseAarMetadata', task ':record_android:writeReleaseAarMetadata', task ':shared_preferences_android:writeReleaseAarMetadata', task ':app:checkReleaseAarMetadata', task ':app:cleanMergeReleaseAssets', task ':app:mergeReleaseShaders', task ':app:compileReleaseShaders', task ':app:generateReleaseAssets', task ':cactus:mergeReleaseShaders', task ':cactus:compileReleaseShaders', task ':cactus:generateReleaseAssets', task ':cactus:mergeReleaseAssets', task ':device_info_plus:mergeReleaseShaders', task ':device_info_plus:compileReleaseShaders', task ':device_info_plus:generateReleaseAssets', task ':device_info_plus:mergeReleaseAssets', task ':flutter_tts:mergeReleaseShaders', task ':flutter_tts:compileReleaseShaders', task ':flutter_tts:generateReleaseAssets', task ':flutter_tts:mergeReleaseAssets', task ':objectbox_flutter_libs:mergeReleaseShaders', task ':objectbox_flutter_libs:compileReleaseShaders', task ':objectbox_flutter_libs:generateReleaseAssets', task ':objectbox_flutter_libs:mergeReleaseAssets', task ':package_info_plus:mergeReleaseShaders', task ':package_info_plus:compileReleaseShaders', task ':package_info_plus:generateReleaseAssets', task ':package_info_plus:mergeReleaseAssets', task ':path_provider_android:mergeReleaseShaders', task ':path_provider_android:compileReleaseShaders', task ':path_provider_android:generateReleaseAssets', task ':path_provider_android:mergeReleaseAssets', task ':permission_handler_android:mergeReleaseShaders', task ':permission_handler_android:compileReleaseShaders', task ':permission_handler_android:generateReleaseAssets', task ':permission_handler_android:mergeReleaseAssets', task ':receive_sharing_intent:mergeReleaseShaders', task ':receive_sharing_intent:compileReleaseShaders', task ':receive_sharing_intent:generateReleaseAssets', task ':receive_sharing_intent:mergeReleaseAssets', task ':record_android:mergeReleaseShaders', task ':record_android:compileReleaseShaders', task ':record_android:generateReleaseAssets', task ':record_android:mergeReleaseAssets', task ':shared_preferences_android:mergeReleaseShaders', task ':shared_preferences_android:compileReleaseShaders', task ':shared_preferences_android:generateReleaseAssets', task ':shared_preferences_android:mergeReleaseAssets', task ':app:mergeReleaseAssets', task ':app:copyFlutterAssetsRelease', task ':app:generateReleaseResValues', task ':app:mapReleaseSourceSetPaths', task ':app:generateReleaseResources', task ':app:mergeReleaseResources', task ':app:packageReleaseResources', task ':app:parseReleaseLocalResources', task ':app:createReleaseCompatibleScreenManifests', task ':android_id:extractDeepLinksRelease', task ':app:extractDeepLinksRelease', task ':cactus:extractDeepLinksRelease', task ':cactus:processReleaseManifest', task ':device_info_plus:extractDeepLinksRelease', task ':device_info_plus:processReleaseManifest', task ':flutter_tts:extractDeepLinksRelease', task ':flutter_tts:processReleaseManifest', task ':objectbox_flutter_libs:extractDeepLinksRelease', task ':objectbox_flutter_libs:processReleaseManifest', task ':package_info_plus:extractDeepLinksRelease', task ':package_info_plus:processReleaseManifest', task ':path_provider_android:extractDeepLinksRelease', task ':path_provider_android:processReleaseManifest', task ':permission_handler_android:extractDeepLinksRelease', task ':permission_handler_android:processReleaseManifest', task ':receive_sharing_intent:extractDeepLinksRelease', task ':receive_sharing_intent:processReleaseManifest', task ':record_android:extractDeepLinksRelease', task ':record_android:processReleaseManifest', task ':shared_preferences_android:extractDeepLinksRelease', task ':shared_preferences_android:processReleaseManifest', task ':app:processReleaseMainManifest', task ':app:outputReleaseAppLinkSettings', task ':app:processReleaseManifest', task ':app:processReleaseManifestForPackage', task ':app:processReleaseResources', task ':cactus:bundleLibCompileToJarRelease', task ':flutter_tts:bundleLibCompileToJarRelease', task ':path_provider_android:bundleLibCompileToJarRelease', task ':permission_handler_android:bundleLibCompileToJarRelease', task ':receive_sharing_intent:bundleLibCompileToJarRelease', task ':record_android:bundleLibCompileToJarRelease', task ':shared_preferences_android:bundleLibCompileToJarRelease', task ':app:compileReleaseKotlin', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':cactus:prepareReleaseArtProfile', task ':device_info_plus:prepareReleaseArtProfile', task ':flutter_tts:prepareReleaseArtProfile', task ':objectbox_flutter_libs:prepareReleaseArtProfile', task ':package_info_plus:prepareReleaseArtProfile', task ':path_provider_android:prepareReleaseArtProfile', task ':permission_handler_android:prepareReleaseArtProfile', task ':receive_sharing_intent:prepareReleaseArtProfile', task ':record_android:prepareReleaseArtProfile', task ':shared_preferences_android:prepareReleaseArtProfile', task ':app:mergeReleaseArtProfile', task ':cactus:bundleLibRuntimeToJarRelease', task ':device_info_plus:bundleLibRuntimeToJarRelease', task ':flutter_tts:bundleLibRuntimeToJarRelease', task ':objectbox_flutter_libs:bundleLibRuntimeToJarRelease', task ':package_info_plus:bundleLibRuntimeToJarRelease', task ':path_provider_android:bundleLibRuntimeToJarRelease', task ':permission_handler_android:bundleLibRuntimeToJarRelease', task ':receive_sharing_intent:bundleLibRuntimeToJarRelease', task ':record_android:bundleLibRuntimeToJarRelease', task ':shared_preferences_android:bundleLibRuntimeToJarRelease', task ':app:expandReleaseArtProfileWildcards', task ':app:extractProguardFiles', task ':app:mergeReleaseGeneratedProguardFiles', task ':app:processReleaseJavaRes', task ':cactus:processReleaseJavaRes', task ':device_info_plus:processReleaseJavaRes', task ':flutter_tts:processReleaseJavaRes', task ':objectbox_flutter_libs:processReleaseJavaRes', task ':package_info_plus:processReleaseJavaRes', task ':path_provider_android:processReleaseJavaRes', task ':permission_handler_android:processReleaseJavaRes', task ':receive_sharing_intent:processReleaseJavaRes', task ':record_android:processReleaseJavaRes', task ':shared_preferences_android:processReleaseJavaRes', task ':app:mergeReleaseJavaResource', task ':app:mergeReleaseStartupProfile', task ':app:minifyReleaseWithR8', task ':app:compileReleaseArtProfile', task ':app:compressReleaseAssets', task ':app:extractReleaseVersionControlInfo', task ':android_id:extractProguardFiles', task ':android_id:generateReleaseLintVitalModel', task ':android_id:lintVitalAnalyzeRelease', task ':android_id:createFullJarRelease', task ':android_id:generateReleaseLintModel', task ':cactus:createFullJarRelease', task ':cactus:extractProguardFiles', task ':device_info_plus:createFullJarRelease', task ':device_info_plus:extractProguardFiles', task ':device_info_plus:generateReleaseLintModel', task ':device_info_plus:prepareLintJarForPublish', task ':objectbox_flutter_libs:createFullJarRelease', task ':objectbox_flutter_libs:extractProguardFiles', task ':objectbox_flutter_libs:generateReleaseLintModel', task ':objectbox_flutter_libs:prepareLintJarForPublish', task ':package_info_plus:createFullJarRelease', task ':package_info_plus:extractProguardFiles', task ':package_info_plus:generateReleaseLintModel', task ':package_info_plus:prepareLintJarForPublish', task ':cactus:generateReleaseLintModel', task ':cactus:prepareLintJarForPublish', task ':flutter_tts:createFullJarRelease', task ':flutter_tts:extractProguardFiles', task ':flutter_tts:generateReleaseLintModel', task ':flutter_tts:prepareLintJarForPublish', task ':path_provider_android:createFullJarRelease', task ':path_provider_android:extractProguardFiles', task ':path_provider_android:generateReleaseLintModel', task ':path_provider_android:prepareLintJarForPublish', task ':permission_handler_android:createFullJarRelease', task ':permission_handler_android:extractProguardFiles', task ':permission_handler_android:generateReleaseLintModel', task ':permission_handler_android:prepareLintJarForPublish', task ':receive_sharing_intent:createFullJarRelease', task ':receive_sharing_intent:extractProguardFiles', task ':receive_sharing_intent:generateReleaseLintModel', task ':receive_sharing_intent:prepareLintJarForPublish', task ':record_android:createFullJarRelease', task ':record_android:extractProguardFiles', task ':record_android:generateReleaseLintModel', task ':record_android:prepareLintJarForPublish', task ':shared_preferences_android:createFullJarRelease', task ':shared_preferences_android:extractProguardFiles', task ':shared_preferences_android:generateReleaseLintModel', task ':shared_preferences_android:prepareLintJarForPublish', task ':app:generateReleaseLintVitalReportModel', task ':cactus:stripReleaseDebugSymbols', task ':cactus:copyReleaseJniLibsProjectAndLocalJars', task ':cactus:extractDeepLinksForAarRelease', task ':cactus:extractReleaseAnnotations', task ':cactus:mergeReleaseConsumerProguardFiles', task ':cactus:mergeReleaseJavaResource', task ':cactus:syncReleaseLibJars', task ':cactus:bundleReleaseLocalLintAar', task ':android_id:bundleReleaseLocalLintAar', task ':device_info_plus:stripReleaseDebugSymbols', task ':device_info_plus:copyReleaseJniLibsProjectAndLocalJars', task ':device_info_plus:extractDeepLinksForAarRelease', task ':device_info_plus:extractReleaseAnnotations', task ':device_info_plus:mergeReleaseConsumerProguardFiles', task ':device_info_plus:mergeReleaseJavaResource', task ':device_info_plus:syncReleaseLibJars', task ':device_info_plus:bundleReleaseLocalLintAar', task ':flutter_tts:stripReleaseDebugSymbols', task ':flutter_tts:copyReleaseJniLibsProjectAndLocalJars', task ':flutter_tts:extractDeepLinksForAarRelease', task ':flutter_tts:extractReleaseAnnotations', task ':flutter_tts:mergeReleaseConsumerProguardFiles', task ':flutter_tts:mergeReleaseJavaResource', task ':flutter_tts:syncReleaseLibJars', task ':flutter_tts:bundleReleaseLocalLintAar', task ':objectbox_flutter_libs:stripReleaseDebugSymbols', task ':objectbox_flutter_libs:copyReleaseJniLibsProjectAndLocalJars', task ':objectbox_flutter_libs:extractDeepLinksForAarRelease', task ':objectbox_flutter_libs:extractReleaseAnnotations', task ':objectbox_flutter_libs:mergeReleaseConsumerProguardFiles', task ':objectbox_flutter_libs:mergeReleaseJavaResource', task ':objectbox_flutter_libs:syncReleaseLibJars', task ':objectbox_flutter_libs:bundleReleaseLocalLintAar', task ':package_info_plus:stripReleaseDebugSymbols', task ':package_info_plus:copyReleaseJniLibsProjectAndLocalJars', task ':package_info_plus:extractDeepLinksForAarRelease', task ':package_info_plus:extractReleaseAnnotations', task ':package_info_plus:mergeReleaseConsumerProguardFiles', task ':package_info_plus:mergeReleaseJavaResource', task ':package_info_plus:syncReleaseLibJars', task ':package_info_plus:bundleReleaseLocalLintAar', task ':path_provider_android:stripReleaseDebugSymbols', task ':path_provider_android:copyReleaseJniLibsProjectAndLocalJars', task ':path_provider_android:extractDeepLinksForAarRelease', task ':path_provider_android:extractReleaseAnnotations', task ':path_provider_android:mergeReleaseConsumerProguardFiles', task ':path_provider_android:mergeReleaseJavaResource', task ':path_provider_android:syncReleaseLibJars', task ':path_provider_android:bundleReleaseLocalLintAar', task ':permission_handler_android:stripReleaseDebugSymbols', task ':permission_handler_android:copyReleaseJniLibsProjectAndLocalJars', task ':permission_handler_android:extractDeepLinksForAarRelease', task ':permission_handler_android:extractReleaseAnnotations', task ':permission_handler_android:mergeReleaseConsumerProguardFiles', task ':permission_handler_android:mergeReleaseJavaResource', task ':permission_handler_android:syncReleaseLibJars', task ':permission_handler_android:bundleReleaseLocalLintAar', task ':receive_sharing_intent:stripReleaseDebugSymbols', task ':receive_sharing_intent:copyReleaseJniLibsProjectAndLocalJars', task ':receive_sharing_intent:extractDeepLinksForAarRelease', task ':receive_sharing_intent:extractReleaseAnnotations', task ':receive_sharing_intent:mergeReleaseConsumerProguardFiles', task ':receive_sharing_intent:mergeReleaseJavaResource', task ':receive_sharing_intent:syncReleaseLibJars', task ':receive_sharing_intent:bundleReleaseLocalLintAar', task ':record_android:stripReleaseDebugSymbols', task ':record_android:copyReleaseJniLibsProjectAndLocalJars', task ':record_android:extractDeepLinksForAarRelease', task ':record_android:extractReleaseAnnotations', task ':record_android:mergeReleaseConsumerProguardFiles', task ':record_android:mergeReleaseJavaResource', task ':record_android:syncReleaseLibJars', task ':record_android:bundleReleaseLocalLintAar', task ':shared_preferences_android:stripReleaseDebugSymbols', task ':shared_preferences_android:copyReleaseJniLibsProjectAndLocalJars', task ':shared_preferences_android:extractDeepLinksForAarRelease', task ':shared_preferences_android:extractReleaseAnnotations', task ':shared_preferences_android:mergeReleaseConsumerProguardFiles', task ':shared_preferences_android:mergeReleaseJavaResource', task ':shared_preferences_android:syncReleaseLibJars', task ':shared_preferences_android:bundleReleaseLocalLintAar', task ':android_id:writeReleaseLintModelMetadata', task ':device_info_plus:writeReleaseLintModelMetadata', task ':objectbox_flutter_libs:writeReleaseLintModelMetadata', task ':package_info_plus:writeReleaseLintModelMetadata', task ':cactus:lintVitalAnalyzeRelease', task ':cactus:writeReleaseLintModelMetadata', task ':device_info_plus:lintVitalAnalyzeRelease', task ':flutter_tts:lintVitalAnalyzeRelease', task ':flutter_tts:writeReleaseLintModelMetadata', task ':objectbox_flutter_libs:lintVitalAnalyzeRelease', task ':package_info_plus:lintVitalAnalyzeRelease', task ':path_provider_android:lintVitalAnalyzeRelease', task ':path_provider_android:writeReleaseLintModelMetadata', task ':permission_handler_android:lintVitalAnalyzeRelease', task ':permission_handler_android:writeReleaseLintModelMetadata', task ':receive_sharing_intent:lintVitalAnalyzeRelease', task ':receive_sharing_intent:writeReleaseLintModelMetadata', task ':record_android:lintVitalAnalyzeRelease', task ':record_android:writeReleaseLintModelMetadata', task ':shared_preferences_android:lintVitalAnalyzeRelease', task ':shared_preferences_android:writeReleaseLintModelMetadata', task ':app:lintVitalAnalyzeRelease', task ':cactus:generateReleaseLintVitalModel', task ':device_info_plus:generateReleaseLintVitalModel', task ':flutter_tts:generateReleaseLintVitalModel', task ':objectbox_flutter_libs:generateReleaseLintVitalModel', task ':package_info_plus:generateReleaseLintVitalModel', task ':path_provider_android:generateReleaseLintVitalModel', task ':permission_handler_android:generateReleaseLintVitalModel', task ':receive_sharing_intent:generateReleaseLintVitalModel', task ':record_android:generateReleaseLintVitalModel', task ':shared_preferences_android:generateReleaseLintVitalModel', task ':app:lintVitalReportRelease', task ':app:lintVitalRelease', task ':app:convertShrunkResourcesToBinaryRelease', task ':app:optimizeReleaseResources', task ':app:collectReleaseDependencies', task ':app:sdkReleaseDependencyData', task ':app:validateSigningRelease', task ':app:writeReleaseAppMetadata', task ':app:writeReleaseSigningConfigVersions', task ':app:packageRelease', task ':app:createReleaseApkListingFileRedirect', task ':app:assembleRelease', task ':cactus:bundleReleaseAar', task ':android_id:compileReleaseLibraryResources', task ':cactus:mapReleaseSourceSetPaths', task ':cactus:mergeReleaseResources', task ':device_info_plus:compileReleaseLibraryResources', task ':objectbox_flutter_libs:compileReleaseLibraryResources', task ':package_info_plus:compileReleaseLibraryResources', task ':cactus:verifyReleaseResources', task ':cactus:assembleRelease', task ':device_info_plus:bundleReleaseAar', task ':device_info_plus:mapReleaseSourceSetPaths', task ':device_info_plus:mergeReleaseResources', task ':device_info_plus:verifyReleaseResources', task ':device_info_plus:assembleRelease', task ':flutter_tts:bundleReleaseAar', task ':flutter_tts:mapReleaseSourceSetPaths', task ':flutter_tts:mergeReleaseResources', task ':flutter_tts:verifyReleaseResources', task ':flutter_tts:assembleRelease', task ':objectbox_flutter_libs:bundleReleaseAar', task ':objectbox_flutter_libs:mapReleaseSourceSetPaths', task ':objectbox_flutter_libs:mergeReleaseResources', task ':objectbox_flutter_libs:verifyReleaseResources', task ':objectbox_flutter_libs:assembleRelease', task ':package_info_plus:bundleReleaseAar', task ':package_info_plus:mapReleaseSourceSetPaths', task ':package_info_plus:mergeReleaseResources', task ':package_info_plus:verifyReleaseResources', task ':package_info_plus:assembleRelease', task ':path_provider_android:bundleReleaseAar', task ':path_provider_android:mapReleaseSourceSetPaths', task ':path_provider_android:mergeReleaseResources', task ':path_provider_android:verifyReleaseResources', task ':path_provider_android:assembleRelease', task ':permission_handler_android:bundleReleaseAar', task ':permission_handler_android:mapReleaseSourceSetPaths', task ':permission_handler_android:mergeReleaseResources', task ':permission_handler_android:verifyReleaseResources', task ':permission_handler_android:assembleRelease', task ':receive_sharing_intent:bundleReleaseAar', task ':receive_sharing_intent:mapReleaseSourceSetPaths', task ':receive_sharing_intent:mergeReleaseResources', task ':receive_sharing_intent:verifyReleaseResources', task ':receive_sharing_intent:assembleRelease', task ':record_android:bundleReleaseAar', task ':record_android:mapReleaseSourceSetPaths', task ':record_android:mergeReleaseResources', task ':record_android:verifyReleaseResources', task ':record_android:assembleRelease', task ':shared_preferences_android:bundleReleaseAar', task ':shared_preferences_android:mapReleaseSourceSetPaths', task ':shared_preferences_android:mergeReleaseResources', task ':shared_preferences_android:verifyReleaseResources', task ':shared_preferences_android:assembleRelease']
+[        ] Tasks that were excluded: []
+[        ] work action Parameters of FilterShrinkerRulesTransform (Thread[Execution worker Thread 4,5,main]) started.
+[        ] work action Parameters of ExtractAarTransform (Thread[Execution worker Thread 4,5,main]) started.
+[        ] work action Parameters of ExtractAarTransform (Thread[Execution worker Thread 4,5,main]) started.
+[        ] Resolve mutations for :android_id:preBuild (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:preBuild (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:preBuild UP-TO-DATE
+[        ] Skipping task ':android_id:preBuild' as it has no actions.
+[        ] Resolve mutations for :android_id:preReleaseBuild (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:preReleaseBuild (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:preReleaseBuild UP-TO-DATE
+[        ] Skipping task ':android_id:preReleaseBuild' as it has no actions.
+[        ] Resolve mutations for :android_id:mergeReleaseJniLibFolders (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:mergeReleaseJniLibFolders (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:mergeReleaseJniLibFolders UP-TO-DATE
+[        ] Caching disabled for task ':android_id:mergeReleaseJniLibFolders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':android_id:mergeReleaseJniLibFolders' as it is up-to-date.
+[        ] Resolve mutations for :android_id:mergeReleaseNativeLibs (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:mergeReleaseNativeLibs (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:mergeReleaseNativeLibs NO-SOURCE
+[        ] Skipping task ':android_id:mergeReleaseNativeLibs' as it has no source files and no previous output files.
+[        ] Resolve mutations for :android_id:stripReleaseDebugSymbols (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:stripReleaseDebugSymbols (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:stripReleaseDebugSymbols NO-SOURCE
+[        ] Skipping task ':android_id:stripReleaseDebugSymbols' as it has no source files and no previous output files.
+[        ] Resolve mutations for :android_id:copyReleaseJniLibsProjectAndLocalJars (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:copyReleaseJniLibsProjectAndLocalJars (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+[        ] Caching disabled for task ':android_id:copyReleaseJniLibsProjectAndLocalJars' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':android_id:copyReleaseJniLibsProjectAndLocalJars' as it is up-to-date.
+[        ] Resolve mutations for :android_id:generateReleaseResValues (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:generateReleaseResValues (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:generateReleaseResValues UP-TO-DATE
+[        ] Caching disabled for task ':android_id:generateReleaseResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:generateReleaseResValues' as it is up-to-date.
+[        ] Resolve mutations for :android_id:extractDeepLinksForAarRelease (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:extractDeepLinksForAarRelease (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:extractDeepLinksForAarRelease UP-TO-DATE
+[        ] Caching disabled for task ':android_id:extractDeepLinksForAarRelease' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:extractDeepLinksForAarRelease' as it is up-to-date.
+[        ] Resolve mutations for :android_id:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':android_id:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :android_id:generateReleaseResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:generateReleaseResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:generateReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':android_id:generateReleaseResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:generateReleaseResources' as it is up-to-date.
+[        ] Resolve mutations for :android_id:packageReleaseResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:packageReleaseResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:packageReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':android_id:packageReleaseResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:packageReleaseResources' as it is up-to-date.
+[        ] work action resolve packageReleaseResources (project :android_id) (Thread[Execution worker Thread 4,5,main]) started.
+[        ] Resolve mutations for :android_id:parseReleaseLocalResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] :android_id:parseReleaseLocalResources (Thread[Execution worker Thread 4,5,main]) started.
+[        ] > Task :android_id:parseReleaseLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':android_id:parseReleaseLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:parseReleaseLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :android_id:generateReleaseRFile (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:generateReleaseRFile (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:generateReleaseRFile UP-TO-DATE
+[        ] Caching disabled for task ':android_id:generateReleaseRFile' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:generateReleaseRFile' as it is up-to-date.
+[        ] work action resolve package-aware-r.txt (project :android_id) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :android_id:compileReleaseKotlin (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:compileReleaseKotlin (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:compileReleaseKotlin UP-TO-DATE
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :android_id:compileDebugAndroidTestKotlin
+[        ] Caching disabled for task ':android_id:compileReleaseKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:compileReleaseKotlin' as it is up-to-date.
+[        ] Resolve mutations for :android_id:extractReleaseAnnotations (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:extractReleaseAnnotations (Thread[Execution worker Thread 3,5,main]) started.
+[  +98 ms] > Task :android_id:extractReleaseAnnotations UP-TO-DATE
+[        ] Caching disabled for task ':android_id:extractReleaseAnnotations' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:extractReleaseAnnotations' as it is up-to-date.
+[        ] Resolve mutations for :android_id:mergeReleaseShaders (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:mergeReleaseShaders (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:mergeReleaseShaders UP-TO-DATE
+[        ] Caching disabled for task ':android_id:mergeReleaseShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':android_id:mergeReleaseShaders' as it is up-to-date.
+[        ] Resolve mutations for :android_id:compileReleaseShaders (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:compileReleaseShaders (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:compileReleaseShaders NO-SOURCE
+[        ] Skipping task ':android_id:compileReleaseShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :android_id:generateReleaseAssets (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:generateReleaseAssets (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:generateReleaseAssets UP-TO-DATE
+[        ] Skipping task ':android_id:generateReleaseAssets' as it has no actions.
+[        ] Resolve mutations for :android_id:mergeReleaseAssets (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:mergeReleaseAssets (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:mergeReleaseAssets UP-TO-DATE
+[        ] Caching disabled for task ':android_id:mergeReleaseAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':android_id:mergeReleaseAssets' as it is up-to-date.
+[        ] work action resolve mergeReleaseAssets (project :android_id) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :android_id:javaPreCompileRelease (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:javaPreCompileRelease (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:javaPreCompileRelease UP-TO-DATE
+[        ] Caching disabled for task ':android_id:javaPreCompileRelease' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:javaPreCompileRelease' as it is up-to-date.
+[        ] Resolve mutations for :android_id:compileReleaseJavaWithJavac (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:compileReleaseJavaWithJavac (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:compileReleaseJavaWithJavac NO-SOURCE
+[        ] Skipping task ':android_id:compileReleaseJavaWithJavac' as it has no source files and no previous output files.
+[        ] Resolve mutations for :android_id:mergeReleaseGeneratedProguardFiles (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:mergeReleaseGeneratedProguardFiles (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':android_id:mergeReleaseGeneratedProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':android_id:mergeReleaseGeneratedProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :android_id:mergeReleaseConsumerProguardFiles (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:mergeReleaseConsumerProguardFiles (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[        ] Caching disabled for task ':android_id:mergeReleaseConsumerProguardFiles' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':android_id:mergeReleaseConsumerProguardFiles' as it is up-to-date.
+[        ] Resolve mutations for :android_id:prepareLintJarForPublish (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:prepareLintJarForPublish (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :android_id:prepareLintJarForPublish UP-TO-DATE
+[        ] Caching disabled for task ':android_id:prepareLintJarForPublish' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':android_id:prepareLintJarForPublish' as it is up-to-date.
+[        ] work action resolve lint.jar (project :android_id) (Thread[Execution worker Thread 6,5,main]) started.
+[        ] work action resolve lint.jar (project :android_id) (Thread[Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :android_id:prepareReleaseArtProfile (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :android_id:prepareReleaseArtProfile (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :android_id:prepareReleaseArtProfile UP-TO-DATE
+[        ] Caching disabled for task ':android_id:prepareReleaseArtProfile' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':android_id:prepareReleaseArtProfile' as it is up-to-date.
+[        ] work action resolve baseline-prof.txt (project :android_id) (Thread[Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :android_id:processReleaseManifest (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :android_id:processReleaseManifest (Thread[Execution worker Thread 6,5,main]) started.
+[        ] > Task :android_id:processReleaseManifest UP-TO-DATE
+[        ] Caching disabled for task ':android_id:processReleaseManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:processReleaseManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :android_id) (Thread[Execution worker Thread 6,5,main]) started.
+[        ] Resolve mutations for :android_id:processReleaseJavaRes (Thread[Execution worker Thread 6,5,main]) started.
+[        ] :android_id:processReleaseJavaRes (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:processReleaseJavaRes UP-TO-DATE
+[        ] file or directory '/Users/saurav/.pub-cache/hosted/pub.dev/android_id-0.4.1/android/src/main/resources', not found
+[        ] file or directory '/Users/saurav/.pub-cache/hosted/pub.dev/android_id-0.4.1/android/src/release/resources', not found
+[        ] file or directory '/Users/saurav/.pub-cache/hosted/pub.dev/android_id-0.4.1/android/src/main/resources', not found
+[        ] file or directory '/Users/saurav/.pub-cache/hosted/pub.dev/android_id-0.4.1/android/src/release/resources', not found
+[        ] Caching disabled for task ':android_id:processReleaseJavaRes' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':android_id:processReleaseJavaRes' as it is up-to-date.
+[        ] work action resolve out (project :android_id) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :android_id:mergeReleaseJavaResource (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:mergeReleaseJavaResource (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:mergeReleaseJavaResource UP-TO-DATE
+[        ] Caching disabled for task ':android_id:mergeReleaseJavaResource' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':android_id:mergeReleaseJavaResource' as it is up-to-date.
+[        ] Resolve mutations for :android_id:syncReleaseLibJars (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:syncReleaseLibJars (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:syncReleaseLibJars
+[        ] Caching disabled for task ':android_id:syncReleaseLibJars' because:
+[        ]   Build cache is disabled
+[        ] Task ':android_id:syncReleaseLibJars' is not up-to-date because:
+[        ]   Output property 'localJarsLocation' file /Users/saurav/Desktop/code/hackathon/briefly/build/android_id/intermediates/aar_libs_directory/release/syncReleaseLibJars/libs has been removed.
+[        ]   Output property 'mainClassLocation' file /Users/saurav/Desktop/code/hackathon/briefly/build/android_id/intermediates/aar_main_jar/release/syncReleaseLibJars/classes.jar has been removed.
+[        ] Resolve mutations for :android_id:writeReleaseAarMetadata (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:writeReleaseAarMetadata (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:writeReleaseAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':android_id:writeReleaseAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':android_id:writeReleaseAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :android_id) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :android_id:bundleReleaseAar (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:bundleReleaseAar (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:bundleReleaseAar
+[        ] Caching disabled for task ':android_id:bundleReleaseAar' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Task ':android_id:bundleReleaseAar' is not up-to-date because:
+[        ]   Output property 'archiveFile' file /Users/saurav/Desktop/code/hackathon/briefly/build/android_id/outputs/aar/android_id-release.aar has been removed.
+[        ] file or directory '/Users/saurav/Desktop/code/hackathon/briefly/build/android_id/intermediates/public_res/release/packageReleaseResources/public.txt', not found
+[        ] file or directory '/Users/saurav/Desktop/code/hackathon/briefly/build/android_id/intermediates/navigation_json_for_aar/release/extractDeepLinksForAarRelease/navigation.json', not found
+[        ] file or directory '/Users/saurav/Desktop/code/hackathon/briefly/build/android_id/intermediates/annotations_zip/release/extractReleaseAnnotations/annotations.zip', not found
+[        ] file or directory '/Users/saurav/Desktop/code/hackathon/briefly/build/android_id/intermediates/merged_consumer_proguard_file/release/mergeReleaseConsumerProguardFiles/proguard.txt', not found
+[        ] file or directory '/Users/saurav/Desktop/code/hackathon/briefly/build/android_id/intermediates/lint_publish_jar/global/prepareLintJarForPublish/lint.jar', not found
+[        ] file or directory '/Users/saurav/Desktop/code/hackathon/briefly/build/android_id/intermediates/library_art_profile/release/prepareReleaseArtProfile/baseline-prof.txt', not found
+[        ] Resolve mutations for :android_id:mapReleaseSourceSetPaths (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:mapReleaseSourceSetPaths (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:mapReleaseSourceSetPaths UP-TO-DATE
+[        ] Caching disabled for task ':android_id:mapReleaseSourceSetPaths' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':android_id:mapReleaseSourceSetPaths' as it is up-to-date.
+[        ] Resolve mutations for :android_id:mergeReleaseResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:mergeReleaseResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:mergeReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':android_id:mergeReleaseResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:mergeReleaseResources' as it is up-to-date.
+[        ] Resolve mutations for :android_id:verifyReleaseResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:verifyReleaseResources (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:verifyReleaseResources UP-TO-DATE
+[        ] Caching disabled for task ':android_id:verifyReleaseResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':android_id:verifyReleaseResources' as it is up-to-date.
+[        ] Resolve mutations for :android_id:assembleRelease (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:assembleRelease (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:assembleRelease
+[        ] Skipping task ':android_id:assembleRelease' as it has no actions.
+[        ] Resolve mutations for :app:ReleaseMinSdkCheck (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:ReleaseMinSdkCheck (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:ReleaseMinSdkCheck
+[        ] Caching disabled for task ':app:ReleaseMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:ReleaseMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :android_id:copyReleaseJniLibsProjectOnly (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :android_id:copyReleaseJniLibsProjectOnly (Thread[Execution worker Thread 3,5,main]) started.
+[        ] > Task :android_id:copyReleaseJniLibsProjectOnly UP-TO-DATE
+[        ] Caching disabled for task ':android_id:copyReleaseJniLibsProjectOnly' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':android_id:copyReleaseJniLibsProjectOnly' as it is up-to-date.
+[        ] work action resolve jni (project :android_id) (Thread[Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :app:compileFlutterBuildRelease (Thread[Execution worker Thread 3,5,main]) started.
+[        ] :app:compileFlutterBuildRelease (Thread[Execution worker Thread 3,5,main]) started.
+[+1991 ms] > Task :app:compileFlutterBuildRelease
+[        ] Caching disabled for task ':app:compileFlutterBuildRelease' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildRelease' is not up-to-date because:
+[        ]   Task has failed previously.
+[        ] Starting process 'command '/opt/homebrew/share/flutter/bin/flutter''. Working directory: /Users/saurav/Desktop/code/hackathon/briefly Command: /opt/homebrew/share/flutter/bin/flutter --verbose assemble --no-version-check --depfile /Users/saurav/Desktop/code/hackathon/briefly/build/app/intermediates/flutter/release/flutter_build.d --output /Users/saurav/Desktop/code/hackathon/briefly/build/app/intermediates/flutter/release -dTargetFile=lib/main.dart -dTargetPlatform=android -dBuildMode=release -dTrackWidgetCreation=true -dTreeShakeIcons=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuMzguMw==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MTkwNzRkMTJmNw==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTNlNjU4NzI1ZA==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC4x -dFlavor= -dAndroidArchs=android-arm android-arm64 android-x64 -dMinSdkVersion=24 android_aot_bundle_release_android-arm android_aot_bundle_release_android-arm64 android_aot_bundle_release_android-x64
+[        ] Successfully started process 'command '/opt/homebrew/share/flutter/bin/flutter''
+[        ] [  +20 ms] executing: sysctl hw.optional.arm64
+[        ] [   +4 ms] Exit code 0 from: sysctl hw.optional.arm64
+[        ] [        ] hw.optional.arm64: 1
+[        ] [   +4 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [   +4 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [  +22 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[   +1 ms] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[   +1 ms] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +14 ms] Initializing file store
+[        ] [   +6 ms] Done initializing file store
+[        ] [  +56 ms] Skipping target: gen_dart_plugin_registrant
+[        ] [        ] Skipping target: dart_build
+[        ] [        ] Skipping target: gen_localizations
+[        ] [        ] Skipping target: install_code_assets
+[        ] [ +491 ms] kernel_snapshot_program: Starting due to {InvalidatedReasonKind.outputSetAddition: The following outputs were added to the output set: /Users/saurav/Desktop/code/hackathon/briefly/.dart_tool/flutter_build/53b588c5522fc0bee5d836ebfa6894a9/app.dill}
+[        ] [   +6 ms] /opt/homebrew/share/flutter/bin/cache/dart-sdk/bin/dartaotruntime /opt/homebrew/share/flutter/bin/cache/dart-sdk/bin/snapshots/frontend_server_aot.dart.snapshot --sdk-root /opt/homebrew/share/flutter/bin/cache/artifacts/engine/common/flutter_patched_sdk_product/ --target=flutter --no-print-incremental-dependencies -DFLUTTER_VERSION=3.38.3 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=19074d12f7 -DFLUTTER_ENGINE_REVISION=13e658725d -DFLUTTER_DART_VERSION=3.10.1 -DFLUTTER_APP_FLAVOR= -Ddart.vm.profile=false -Ddart.vm.product=true --delete-tostring-package-uri=dart:ui --delete-tostring-package-uri=package:flutter --aot --tfa --target-os android --packages /Users/saurav/Desktop/code/hackathon/briefly/.dart_tool/package_config.json --output-dill /Users/saurav/Desktop/code/hackathon/briefly/.dart_tool/flutter_build/53b588c5522fc0bee5d836ebfa6894a9/app.dill --depfile /Users/saurav/Desktop/code/hackathon/briefly/.dart_tool/flutter_build/53b588c5522fc0bee5d836ebfa6894a9/kernel_snapshot_program.d --source file:///Users/saurav/Desktop/code/hackathon/briefly/.dart_tool/flutter_build/dart_plugin_registrant.dart --source package:flutter/src/dart_plugin_registrant.dart -Dflutter.dart_plugin_registrant=file:///Users/saurav/Desktop/code/hackathon/briefly/.dart_tool/flutter_build/dart_plugin_registrant.dart --verbosity=error package:localdost/main.dart
+[+4095 ms] [+4032 ms] Persisting file store
+[        ] [   +8 ms] Done persisting file store
+[        ] [   +1 ms] "flutter assemble" took 6,603ms.
+[        ] [   +3 ms] executing: sw_vers -productName
+[        ] [  +11 ms] Exit code 0 from: sw_vers -productName
+[        ] [        ] macOS
+[        ] [        ] executing: sw_vers -productVersion
+[        ] [   +6 ms] Exit code 0 from: sw_vers -productVersion
+[        ] [        ] 15.6.1
+[        ] [        ] executing: sw_vers -buildVersion
+[        ] [   +6 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] [        ] 24G90
+[        ] [        ] executing: uname -m
+[        ] [   +2 ms] Exit code 0 from: uname -m
+[        ] [        ] arm64
+[        ] [        ] Running 1 shutdown hook
+[        ] [        ] Shutdown hooks complete
+[ +192 ms] [ +183 ms] exiting with code 1
+[        ] > Task :app:compileFlutterBuildRelease FAILED
+[        ] Build f28376e5-a38e-4952-a71d-3026d80f17b8 is closed
+[        ] [Incubating] Problems report is available at: file:///Users/saurav/Desktop/code/hackathon/briefly/build/reports/problems/problems-report.html
+[        ] Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] 33 actionable tasks: 4 executed, 29 up-to-date
+[        ] Watched directory hierarchies: [/opt/homebrew/share/flutter/packages/flutter_tools/gradle]
+[  +37 ms] Running Gradle task 'assembleRelease'... (completed in 8.7s)
+[   +5 ms] "flutter apk" took 9,110ms.
+[   +3 ms] executing: sw_vers -productName
+[  +10 ms] Exit code 0 from: sw_vers -productName
+[        ] macOS
+[        ] executing: sw_vers -productVersion
+[   +7 ms] Exit code 0 from: sw_vers -productVersion
+[        ] 15.6.1
+[        ] executing: sw_vers -buildVersion
+[   +6 ms] Exit code 0 from: sw_vers -buildVersion
+[        ] 24G90
+[        ] executing: uname -m
+[   +2 ms] Exit code 0 from: uname -m
+[        ] arm64
+[        ] Running 1 shutdown hook
+[   +1 ms] Shutdown hooks complete
+[ +103 ms] exiting with code 1

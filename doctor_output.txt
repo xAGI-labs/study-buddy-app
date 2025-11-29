@@ -1,0 +1,42 @@
+[✓] Flutter (Channel stable, 3.38.3, on macOS 15.6.1 24G90 darwin-arm64, locale en-IN) [97ms]
+    • Flutter version 3.38.3 on channel stable at /opt/homebrew/share/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 19074d12f7 (9 days ago), 2025-11-20 17:53:13 -0500
+    • Engine revision 13e658725d
+    • Dart version 3.10.1
+    • DevTools version 2.51.1
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging
+
+[!] Android toolchain - develop for Android devices (Android SDK version 35.0.0) [53ms]
+    • Android SDK at /opt/homebrew/share/android-commandlinetools
+    • Emulator version unknown
+    • Platform android-36, build-tools 35.0.0
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/Contents/Home/bin/java
+      This JDK is specified by the JAVA_HOME environment variable.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    ✗ Cannot execute /Applications/Android Studio.app/Contents/jre/Contents/Home/bin/java to determine the version
+
+[✗] Xcode - develop for iOS and macOS [62ms]
+    ✗ Xcode installation is incomplete; a full installation is necessary for iOS and macOS development.
+      Download at: https://developer.apple.com/xcode/
+      Or install Xcode via the App Store.
+      Once installed, run:
+        sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+        sudo xcodebuild -runFirstLaunch
+    ✗ CocoaPods not installed.
+        CocoaPods is a package manager for iOS or macOS platform code.
+        Without CocoaPods, plugins will not work on iOS or macOS.
+        For more info, see https://flutter.dev/to/platform-plugins
+      For installation instructions, see https://guides.cocoapods.org/using/getting-started.html#installation
+
+[✓] Chrome - develop for the web [27ms]
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[✓] Connected device (2 available) [95ms]
+    • macOS (desktop) • macos  • darwin-arm64   • macOS 15.6.1 24G90 darwin-arm64
+    • Chrome (web)    • chrome • web-javascript • Google Chrome 142.0.7444.176
+
+[✓] Network resources [467ms]
+    • All expected network resources are available.
+
+! Doctor found issues in 2 categories.

@@ -2,6 +2,8 @@
 
 The Private, On-Device AI News Summarizer.
 
+[**Download APK for Android**](https://github.com/xAGI-labs/study-buddy-app/tree/main/apk)
+
 Studdy Buddy reads, cleans, and summarizes news articles entirely on-device using the Gemma-3 model. No cloud APIs, no subscriptions, and no data egress.
 
 ![Studdy Buddy App Screenshots](https://raw.githubusercontent.com/ayusrjn/briefly/refs/heads/main/assets/readme.png)
@@ -24,6 +26,7 @@ Contents
 - System integration: deep links and Android Share Sheet support.
 - Text-to-speech: integrated neural TTS for audio briefings.
 - Smart scraping: strips ads, trackers, and irrelevant HTML before summarization.
+- **AI Slides**: Generates beautiful slide presentations from text prompts (custom renderer inspired by SuperDeck).
 
 ---
 

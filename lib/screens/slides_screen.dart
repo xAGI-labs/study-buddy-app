@@ -25,8 +25,9 @@ class _SlidesScreenState extends State<SlidesScreen> {
   void _parseSlides() {
     // Split by horizontal rule '---'
     // Normalize newlines first
+    // Split by horizontal rule '---' with optional newlines and whitespace
     final content = widget.markdownContent.replaceAll('\r\n', '\n');
-    _slides = content.split(RegExp(r'\n---\n')).where((s) => s.trim().isNotEmpty).toList();
+    _slides = content.split(RegExp(r'\n\s*---\s*\n?')).where((s) => s.trim().isNotEmpty).toList();
     
     if (_slides.isEmpty) {
       _slides = ["# No slides generated\n\nPlease try again."];

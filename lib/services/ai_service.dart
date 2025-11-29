@@ -107,27 +107,18 @@ class CactusAIService implements AIService {
     }
 
     final fullPrompt = """
-Create a 5-slide presentation on the following topic: "$prompt".
-Format the output as Markdown compatible with SuperDeck.
-Follow these rules strictly:
-1. Use '---' to separate slides.
-2. The first slide should be a title slide.
-3. Use '@column' to structure content.
-4. Use '#' for titles and '-' for bullet points.
-5. Do not include any other text or explanations, only the Markdown.
+Create a 5-slide presentation about: "$prompt".
+Strictly separate each slide with a horizontal rule: ---
 
-Example format:
----
-@column
-# Title
-- Point 1
-- Point 2
----
-@column
-# Slide 2
-- Detail 1
-- Detail 2
----
+Structure:
+Slide 1: Title and Introduction
+Slide 2: Main Point 1
+Slide 3: Main Point 2
+Slide 4: Main Point 3
+Slide 5: Conclusion
+
+Format as Markdown. Use # for titles and - for bullet points.
+Do not include any other text.
 """;
 
     final result = await _lm.generateCompletion(
@@ -142,6 +133,7 @@ Example format:
     );
 
     if (!result.success) throw Exception("Slide generation failed: ${result.response}");
+    print("DEBUG: Generated Slides Content:\n${result.response}"); // Debug log
     return result.response;
   }
   

@@ -1,10 +1,10 @@
-# Briefly
+# Studdy Buddy
 
 The Private, On-Device AI News Summarizer.
 
-Briefly reads, cleans, and summarizes news articles entirely on-device using the Gemma-3 model. No cloud APIs, no subscriptions, and no data egress.
+Studdy Buddy reads, cleans, and summarizes news articles entirely on-device using the Gemma-3 model. No cloud APIs, no subscriptions, and no data egress.
 
-![Briefly App Screenshots](https://raw.githubusercontent.com/ayusrjn/briefly/refs/heads/main/assets/readme.png)
+![Studdy Buddy App Screenshots](https://raw.githubusercontent.com/ayusrjn/briefly/refs/heads/main/assets/readme.png)
 
 Contents
 - Features
@@ -29,7 +29,7 @@ Contents
 
 ## Architecture
 
-Briefly uses a service-oriented architecture focused on performance and predictable state management.
+Studdy Buddy uses a service-oriented architecture focused on performance and predictable state management.
 
 ### Stack
 - Framework: Flutter (Dart 3.0+)
